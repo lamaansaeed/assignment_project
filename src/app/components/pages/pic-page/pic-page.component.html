@@ -1,0 +1,23 @@
+<div class="container">
+  <img [src]="pic.imageUrl" [alt]="pic.name">
+  <div class="details">
+    <div class="header">
+      <span class="name">
+        {{pic.name}}
+      </span> <br>
+      <span class="caption">
+        {{pic.caption}}
+      </span>
+    </div>
+    <div class="tag">
+      <span *ngFor=" let pictag of pic.tag" >
+        {{pictag}}
+      </span>
+    </div>
+    <div class="origins">
+      <span *ngFor="let origin of pic.origins">
+        {{origin}}
+      </span>
+    </div>
+  </div>
+</div>

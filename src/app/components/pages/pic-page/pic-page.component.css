@@ -1,0 +1,73 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin:3rem;
+}
+img{
+  flex: 1 0;
+  object-fit: cover;
+  height: 35rem;
+  width: 25rem;
+  margin: 1rem;
+  border-radius: 3rem;
+}
+.details{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  flex:1 0;
+  border:3rem;
+  padding: 2rem;
+  color: black;
+  margin-left: 1rem;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+.name{
+  font-weight: bold;
+  background-color: olivedrab;
+  color: black;
+  border-radius:1.5rem ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  padding: 1rem;
+}
+.caption{
+  background-color: olivedrab;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 1.5rem;
+  font-size: 1.3rem;
+}
+.origins{
+  display: flex;
+  flex-wrap: wrap;
+  margin:1rem 0;
+}
+.origins span{
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin:0.5rem 0.5rem 0.5rem 0;
+  border-radius: 2rem;
+  background-color: aliceblue;
+}
+.tag{
+  flex-wrap: wrap;
+  display: flex;
+  margin: 1rem 0;
+}
+.tag span{
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin:0.5rem 0.5rem 0.5rem 0;
+  border-radius: 2rem;
+  background-color: aliceblue;
+  color: olivedrab;
+}
